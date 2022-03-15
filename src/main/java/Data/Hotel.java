@@ -1,4 +1,5 @@
 package Data;
 
-public class Hotel {
+public class Hotel extends Localitzacio{
+    int stars;
 }

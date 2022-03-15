@@ -1,4 +1,6 @@
 package Data;
 
-public class Monument {
+public class Monument extends Localitzacio{
+    String architect;
+    int inauguration;
 }

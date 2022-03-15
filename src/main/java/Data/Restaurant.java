@@ -1,4 +1,5 @@
 package Data;
 
-public class Restaurant {
+public class Restaurant extends Localitzacio{
+    String characteristics[];
 }
