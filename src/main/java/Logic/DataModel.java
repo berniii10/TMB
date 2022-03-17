@@ -21,10 +21,11 @@ public class DataModel {
         for (int i = 0; i < ubicacio.getLocations().size(); i++){
             if(ubicacio.getLocations().get(i).getArchitect() != null && ubicacio.getLocations().get(i).getCharacteristics() != null){
                 //Hotel
+                /*
             }else if(){
 
             }else if(){
-
+                */
             }else{
 
             }
