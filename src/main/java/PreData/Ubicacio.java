@@ -1,4 +1,6 @@
-package Data;
+package PreData;
+
+import PreData.LocalitzacioPre;
 
 import java.util.ArrayList;
 

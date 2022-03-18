@@ -1,4 +1,4 @@
-package Data;
+package PreData;
 
 public class LocalitzacioPre {
     String name;
