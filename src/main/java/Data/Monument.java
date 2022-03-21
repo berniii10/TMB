@@ -1,8 +1,8 @@
 package Data;
 
 public class Monument extends Localitzacio{
-    String architect;
-    int inauguration;
+    private String architect;
+    private int inauguration;
 
     public Monument(String name, float[] coordinates, String description, String architect, int inauguration) {
         super(name, coordinates, description);

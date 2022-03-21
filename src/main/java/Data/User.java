@@ -1,9 +1,9 @@
 package Data;
 
 public class User {
-    String username;
-    String mail;
-    int anyNaixement;
+    private String username;
+    private String mail;
+    private int anyNaixement;
 
     public User(){}
 

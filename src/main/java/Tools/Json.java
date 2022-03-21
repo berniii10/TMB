@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.Reader;
 
 public class Json {
-    Gson gson = new Gson();
+    private Gson gson = new Gson();
 
     public Ubicacio loadFileLoc(){
         Ubicacio locations = new Ubicacio();

@@ -1,7 +1,7 @@
 package Data;
 
 public class Restaurant extends Localitzacio{
-    String characteristics[];
+    private String characteristics[];
 
     public Restaurant(String name, float[] coordinates, String description, String[] characteristics) {
         super(name, coordinates, description);

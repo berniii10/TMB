@@ -1,7 +1,7 @@
 package Data;
 
 public class Hotel extends Localitzacio{
-    int stars;
+    private int stars;
 
     public Hotel(String name, float coordinates[], String description, int stars) {
         super(name, coordinates, description);

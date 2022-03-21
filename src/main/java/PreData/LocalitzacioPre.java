@@ -1,13 +1,13 @@
 package PreData;
 
 public class LocalitzacioPre {
-    String name;
-    float coordinates[] = new float[2];
-    String description;
-    String architect;
-    int inauguration;
-    String characteristics[];
-    int stars;
+    private String name;
+    private float coordinates[] = new float[2];
+    private String description;
+    private String architect;
+    private int inauguration;
+    private String characteristics[];
+    private int stars;
 
     public String getName() {
         return name;

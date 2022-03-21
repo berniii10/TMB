@@ -1,9 +1,9 @@
 package Data;
 
 public class Localitzacio {
-    String name;
-    float coordinates[];
-    String description;
+    private String name;
+    private float coordinates[];
+    private String description;
 
     public Localitzacio(String name, float coordinates[], String description){
         this.name = name;
