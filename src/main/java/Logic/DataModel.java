@@ -7,14 +7,15 @@ import Tools.Json;
 import java.util.ArrayList;
 
 public class DataModel {
-    Json json = new Json();
-    Ubicacio ubicacio;
-    ArrayList<Localitzacio> localitzacions;
-    ArrayList<Hotel> hotels;
-    ArrayList<Monument> monuments;
-    ArrayList<Restaurant> restaurants;
+    private Json json;
+    private Ubicacio ubicacio;
+    private ArrayList<Localitzacio> localitzacions;
+    private ArrayList<Hotel> hotels;
+    private ArrayList<Monument> monuments;
+    private ArrayList<Restaurant> restaurants;
 
-    public DataModel(){
+    public DataModel(Json json){
+        this.json = json;
         localitzacions = new ArrayList<Localitzacio>();
         hotels = new ArrayList<Hotel>();
         monuments = new  ArrayList<Monument>();
@@ -85,4 +86,35 @@ public class DataModel {
         }
     }
 
+    public ArrayList<Localitzacio> getLocalitzacions() {
+        return localitzacions;
+    }
+
+    public void setLocalitzacions(ArrayList<Localitzacio> localitzacions) {
+        this.localitzacions = localitzacions;
+    }
+
+    public ArrayList<Hotel> getHotels() {
+        return hotels;
+    }
+
+    public void setHotels(ArrayList<Hotel> hotels) {
+        this.hotels = hotels;
+    }
+
+    public ArrayList<Monument> getMonuments() {
+        return monuments;
+    }
+
+    public void setMonuments(ArrayList<Monument> monuments) {
+        this.monuments = monuments;
+    }
+
+    public ArrayList<Restaurant> getRestaurants() {
+        return restaurants;
+    }
+
+    public void setRestaurants(ArrayList<Restaurant> restaurants) {
+        this.restaurants = restaurants;
+    }
 }

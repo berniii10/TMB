@@ -18,6 +18,7 @@ public class Json {
         }catch (IOException e){
             System.out.println("ERROR al llegir el Gson");
         }
+
         return locations;
     }
 
