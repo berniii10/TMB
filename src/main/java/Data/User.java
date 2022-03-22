@@ -1,11 +1,16 @@
 package Data;
 
+import java.util.ArrayList;
+
 public class User {
     private String username;
     private String mail;
     private int anyNaixement;
 
-    public User(){}
+    private ArrayList<Localitzacio> localitzacions;
+
+    public User(){
+    }
 
     public User(String username, String mail, int anyNaixement) {
         this.username = username;
@@ -42,5 +47,13 @@ public class User {
 
     public void setAnyNaixement(int anyNaixament) {
         this.anyNaixement = anyNaixement;
+    }
+
+    public ArrayList<Localitzacio> getLocalitzacions() {
+        return localitzacions;
+    }
+
+    public void setLocalitzacions(ArrayList<Localitzacio> localitzacions) {
+        this.localitzacions = localitzacions;
     }
 }

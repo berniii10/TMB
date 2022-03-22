@@ -5,12 +5,15 @@ public class Localitzacio {
     private float coordinates[];
     private String description;
 
+    public Localitzacio(){}
+
     public Localitzacio(String name, float coordinates[], String description){
         this.name = name;
-        this.coordinates = new float[2];
         this.coordinates = coordinates;
         this.description = description;
     }
+
+
 
     public String getName() {
         return name;

@@ -19,11 +19,11 @@ public class main {
         json = new Json();
         dataModel = new DataModel(json);
         ui = new UI();
-        systemA = new SystemA();
-
-        dataModel.loadJson();
 
         user = ui.initTMB();
+        dataModel.loadJson();
+
+        systemA = new SystemA(dataModel, user, ui);
 
         while(opcio != 4){
 
@@ -34,6 +34,7 @@ public class main {
                     opcioUser = ui.userMenu();
                     switch (opcioUser){
                         case 'a':
+                            systemA.myLocations();
                             break;
                         case 'b':
                             break;
