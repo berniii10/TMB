@@ -10,12 +10,14 @@ public class User {
     private ArrayList<Localitzacio> localitzacions;
 
     public User(){
+        localitzacions = new ArrayList<Localitzacio>();
     }
 
     public User(String username, String mail, int anyNaixement) {
         this.username = username;
         this.mail = mail;
         this.anyNaixement = anyNaixement;
+        localitzacions = new ArrayList<Localitzacio>();
     }
 
     public void printAllMyData(){
